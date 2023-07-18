@@ -16,6 +16,14 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING,
       },
+      soccerTeam: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      professions: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
       maritalStatus: {
         allowNull: false,
         type: Sequelize.STRING,

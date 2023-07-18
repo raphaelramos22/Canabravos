@@ -3,6 +3,8 @@ const createMemberModel = (sequelize, DataTypes) => {
     id:{ type: DataTypes.INTEGER, primaryKey: true },
     displayName: DataTypes.STRING,
     instagram: DataTypes.STRING,
+    soccerTeam: DataTypes.STRING,
+    professions: DataTypes.STRING,
     maritalStatus: DataTypes.STRING,
     image: DataTypes.STRING,
   }, {
