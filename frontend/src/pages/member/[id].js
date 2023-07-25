@@ -11,7 +11,7 @@ export default function Profile({repo}) {
  
   return (
     <>
-      {repo?
+      {repo.displayName?
         <div class=" h-screen bg-orange-600 pt-3">
           <div>
             <img 
@@ -28,7 +28,7 @@ export default function Profile({repo}) {
             </Link>
           </div>
       </div>:
-        <div class="text-center text-8xl">Erro</div>
+        <div class="text-center text-8xl">{repo.message}</div>
       }
    </>
   )
